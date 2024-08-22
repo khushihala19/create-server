@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#title {
+    color: #333;
+    margin-top: 20px;
+}
+
+#img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+#course {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
